@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/chinese_alphabet"
+        android:layout_width="315dp"
+        android:layout_height="85dp"
+        android:src="@mipmap/chinese_alphabet"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/chinese_sentence"
+        android:layout_width="315dp"
+        android:layout_height="85dp"
+        android:src="@mipmap/chinese_sentence"
+        android:layout_below="@+id/chinese_alphabet"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/english_alphabet"
+        android:layout_width="315dp"
+        android:layout_height="85dp"
+        android:src="@mipmap/english_alphabet"
+        android:layout_below="@+id/chinese_sentence"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/english_sentence"
+        android:layout_width="315dp"
+        android:layout_height="85dp"
+        android:src="@mipmap/english_sentence"
+        android:layout_below="@+id/english_alphabet"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="95dp"
+        android:layout_height="68dp"
+        android:src="@mipmap/helpbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

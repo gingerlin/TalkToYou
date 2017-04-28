@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.ginger.talktoyou"
+        android:versionCode="9"
+        android:versionName="3.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChineseSentence"></activity>
+        <activity android:name=".ChineseAlphabet"></activity>
+        <activity android:name=".EnglishAlphabet"></activity>
+        <activity android:name=".EnglishSentence"></activity>
+        <activity android:name=".CAhelp"></activity>
+        <activity android:name=".CShelp"></activity>
+        <activity android:name=".EAhelp"></activity>
+        <activity android:name=".EShelp"></activity>
+        <activity android:name=".help"></activity>
+    </application>
+
+</manifest>
